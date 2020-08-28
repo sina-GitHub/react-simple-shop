@@ -1,0 +1,20 @@
+module.exports = [
+	{
+		tags: [],
+		productName: 'boy shoes',
+		description: '',
+		price: '100',
+		exists: true,
+		numbers: 1,
+		off: '10',
+		authors: ['Sina'],
+		imgs: ['img1.jpg'],
+		colors: ['red', 'blue', 'green'],
+		ageLimit: true,
+		adult: false,
+		gender: 'male',
+		date: new Date().toISOString(),
+		comments: [],
+		likes: 10,
+	},
+];
