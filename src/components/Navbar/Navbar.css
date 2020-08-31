@@ -1,0 +1,54 @@
+.img-logo {
+  position: relative;
+  top: 3px;
+  left: -10px;
+  width: 50px;
+  height: 50px;
+}
+
+.navbar-routes {
+  margin: 0 5px;
+}
+
+.navbar-routes a {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.translate-box {
+  position: absolute;
+  top: 40px;
+  right: -10px !important;
+  padding: 10px 30px;
+  display: none;
+}
+
+.translate:hover .translate-box {
+  display: block !important;
+}
+
+.translate-langs {
+  background-color: #fff;
+  -webkit-box-shadow: 3px 6px 5px 0px rgba(194, 194, 194, 1);
+  -moz-box-shadow: 3px 6px 5px 0px rgba(194, 194, 194, 1);
+  box-shadow: 3px 6px 5px 0px rgba(194, 194, 194, 1);
+  border-radius: 5px;
+  padding: 15px 30px;
+}
+
+.translate-langs div {
+  cursor: pointer;
+  padding: 10px 5px;
+  color: #666;
+  font-size: 18px;
+}
+
+.translate-langs div:hover {
+  color: rgb(185, 20, 20);
+}
+
+@media (max-width: 600px) {
+  .navbar-routes {
+    display: none;
+  }
+}
